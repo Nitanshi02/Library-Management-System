@@ -1,0 +1,14 @@
+<html>
+<body bgcolor='blue' text='black'>
+<form action='/getdata1/' method='POST'>
+{%csrf_token%}
+<font face='algerian' size=5 color='black'>
+<center> Login Form </center> <br>
+</font>
+User ID <input type='text' name='t1'>
+Password <input type='password' name='p1'>
+<input type='submit' value="Login">
+<br>
+<input type='submit' value='cancel'>
+</BODY>
+</HTML>
